@@ -1,0 +1,136 @@
+/* Entire page or most of the page*/
+body {
+  background-color: skyblue;
+  /* Get cloudy picture for background */
+}
+
+.main_container,
+footer {
+  margin: 20px 20px 20px 20px;
+}
+
+.section1,
+.section2,
+.section3,
+footer {
+  background-color: white;
+}
+
+/* Section 1 */
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 5px solid black;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.box1 {
+  flex-grow: 1;
+  display: flex;
+}
+
+.box2 {
+  flex-grow: 2;
+}
+
+.box1-content {
+  margin: 0;
+}
+
+#profile-pic {
+  margin: 10px 10px 10px 10px;
+}
+
+.box1-content h2 {
+  margin-bottom: 0px;
+}
+
+.box1-content h3 {
+  margin-top: 0;
+}
+
+#occupation {
+  color: lightslategray;
+}
+
+.box2 .info {
+  color: lightslategrey;
+}
+
+/* Section 2 and Section 3*/
+.lower_container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-box {
+  height: 400px;
+  min-width: 200px;
+}
+
+.big-box-1 {
+  margin-right: 20px;
+  flex-grow: 1;
+}
+
+.employment {
+  padding-left: 10px;
+}
+
+.university span {
+  float: right;
+  padding-right: 10px;
+  font-weight: normal;
+}
+
+.big-box-1 hr {
+  width: 530px;
+  margin: auto;
+}
+
+.big-box-2 {
+  padding-left: 20px;
+  flex-grow: 2;
+}
+
+.big-box-1,
+.big-box-2 {
+  padding-left: 20px;
+}
+
+.skills h3 {
+  margin-bottom: 0;
+}
+
+.skills p {
+  margin-top: 0;
+}
+
+/* Footers */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  gap: 20px;
+}
+
+.footer-icon:hover {
+  color: #faf622;
+}
+
+footer .copy-right {
+  text-align: center;
+  color: black;
+}
