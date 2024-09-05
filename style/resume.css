@@ -79,35 +79,37 @@ footer {
 }
 
 .big-box {
-  height: 400px;
   min-width: 200px;
+  padding-bottom: 20px;
 }
 
 .big-box-1 {
   margin-right: 20px;
-  flex-grow: 2;
+  flex: 2;
+  /* flex-grow: 2; */
 }
 
 .employment {
   padding-left: 10px;
 }
 
-.university span {
+.training span {
   float: right;
   padding-right: 10px;
   font-weight: normal;
 }
 
 .big-box-1 hr {
-  width: 530px;
+  width: 100%;
   margin: auto;
 }
 
 .big-box-2 {
   padding-left: 20px;
-  flex-grow: 1;
-  border: 5px solid black;
-  margin-top: 20px;
+  padding-right: 10px;
+  flex: 1;
+  /* flex-grow: 1; */
+  /* border: 5px solid black; */
 }
 
 .big-box-1,
